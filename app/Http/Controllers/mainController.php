@@ -10,7 +10,7 @@ class mainController extends Controller
         return view('main.home');
     }
 
-    public function contact(){
+    public function contacts(){
         return view('main.contactos');
     }
 }

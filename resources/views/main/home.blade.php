@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>asasas</title>
+    <title>H Producciones Chile</title>
 </head>
 <body>
-    <h1>Hola mundo desde home.blade.php</h1>
+     @include('layout.header')
+    <h1>Hola mundo desde home</h1>
 </body>
 </html>
