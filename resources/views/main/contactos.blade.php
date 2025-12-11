@@ -41,7 +41,7 @@
         <br>
 
         <button type="submit">Enviar</button>
-
     </form>
+    @include('layout.footer')
 </body>
 </html>

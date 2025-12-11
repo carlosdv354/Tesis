@@ -8,7 +8,7 @@
 </head>
 <body>
     @include('layout.header')
-    <h1>Hola mundo desde home</h1>
+    <h1>Hola mundo desde Servicios</h1>
     @include('layout.footer')
 </body>
 </html>
