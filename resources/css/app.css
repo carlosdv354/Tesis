@@ -1,11 +1,63 @@
-@import 'tailwindcss';
+/* Header */
+.header-custom {
+    background-color: #DADAD7;
+    padding: 10px;
+}
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
+.header-logo {
+    width: 100px;
+}
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+.brand-text {
+    text-decoration: none;
+    color: inherit;
+}
+
+.brand-text:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* navbar */
+.navbar-custom {
+    background-color: #000;
+}
+.nav-item-custom a {
+    padding: 20px;
+    font-size: 15.5px;
+    color: #d4af37;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.nav-item-custom a:hover {
+    color: #ffd700;
+    background-color: #111;
+}
+.nav-item-custom a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #d4af37;
+    transition: width 0.3s ease;
+}
+.nav-item-custom a:hover::after {
+    width: 100%;
+}
+
+
+/* Footer */
+.footer-custom {
+    background-color: #DADAD7;
+    padding: 15px 0;
+}
+
+.footer-text {
+    color: #000;
+    text-align: right;
+    font-size: 0.9rem;
 }

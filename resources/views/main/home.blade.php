@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>H Producciones Chile</title>
-</head>
-<body>
-    @include('layout.header')
-    <h1>Hola mundo desde home</h1>
-    @include('layout.footer')
-</body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+
+<div class="hero-container position-relative">
+    <img src="{{ asset('image/portafolio13.png') }}" alt="Banner" class="hero-image">
+    <div class="hero-text position-absolute top-50 start-50 translate-middle text-center text-white">
+        <h1 class="fw-bold">Bienvenido a H Producciones</h1>
+        <p class="fs-5">Creamos eventos que se viven y se recuerdan</p>
+    </div>
+</div>
+
+@endsection
